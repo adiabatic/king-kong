@@ -43,7 +43,6 @@ In order for OS X to rescan your .keyboardlayout files, the timestamp on that Ke
 
 ## Bugs
 
-- Command-shortcuts (cmd-s, cmd-w, etc.) don’t work.
 - Ctrl-shortcuts (C-a, C-e, C-k) don’t work.
 - The included PDF layout is somewhat misleading; QWER generate code points for single and double curly quotes, not single and double angle quotation marks. (Kingsley, the font used to make this layout, uses guillemets instead of curly quotation marks for some reason.)
 
