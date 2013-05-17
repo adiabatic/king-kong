@@ -40,6 +40,8 @@
             <modifier keys="anyShift caps? option? command? control"/>
             <modifier keys="shift? caps? anyOption command? control"/>
             <modifier keys="caps? anyOption? command? control"/>
+            <modifier keys="control"/>
+            <modifier keys="caps? control"/>
         </keyMapSelect>
     </modifierMap>
     <keyMapSet id="ANSI">
