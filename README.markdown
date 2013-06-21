@@ -34,7 +34,7 @@ In order for OS X to rescan your .keyboardlayout files, the timestamp on that Ke
 
 ## Installation Instructions (Windows)
 
-1. Run the setup file.
+1. [Download][] and run the setup file.
 
 Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. YMMV.
 
@@ -64,6 +64,7 @@ This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Micros
 [uke]: http://scripts.sil.org/ukelele
 [msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
 [kokbd]: http://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
+[download]: https://github.com/adiabatic/king-kong/raw/master/KingKong.PUA.setup.exe
 
 [zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"
 [zwnj]: http://en.wikipedia.org/wiki/Zero-width_non-joiner "no ligature here, please"
