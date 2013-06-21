@@ -1,32 +1,30 @@
-<hgroup>
-    <h1>King Kong</h1>
-    <h2>A Quikscript Keyboard Layout for OS X</h2>
-</hgroup>
+# King Kong: A Quikscript Keyboard Layout
 
-This is a repository for an OS X keyboard layout for [Quikscript][qs], created with [Ukelele][uke].  King Kong is a *highly* experimental keyboard layout that incorporates some of the design decisions of [Sebeolsik 390 and Final](kokbd) into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E or thereabouts.
+King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final](kokbd) into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E. 
 
 
 ## Notable Features
 
-- The more common letters (.It, .No, .Utter, etc.) are placed in easier-to-type positions. Infrequently-used letters like .J’ai and .Jay are only available via digital acrobatics.
-- Vowels in the middle, consonants on the edges. This may be a bad idea for English.
+- The more common letters (.It, .No, .Utter, etc.) are placed in easier-to-type positions. Infrequently-used letters like .J’ai and .Jay require reaching.
+- Vowels are in the middle, consonants are on the edges.
 - Numbers are in a 3×3 grid on the right side of the keyboard; hold Shift to type them.
-- there are keys for the following:
+- there are dedicated keys for the following:
   - “ and ”
   - ‘ and  ’
+  - …
   - – (en dash)
   - — (em dash)
 - The punctuation from shift-1 (!) to shift-7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
-- Llan and Loch are opt-l and opt-q, respectively.
+- .Llan and .Loch are opt-l and opt-q, respectively.
 
 
-## Installation Instructions
+## Installation Instructions (OS X)
 
 1. Copy the .keyboardlayout file to ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. If the folder you’re supposed to copy it to doesn’t exist, create it.
 1. Log out and back in.
 
 
-## Reinstallation Instructions
+## Reinstallation Instructions (OS X)
 
 In order for OS X to rescan your .keyboardlayout files, the timestamp on that Keyboard Layouts directory must change. The easiest way to do this is:
 
@@ -34,21 +32,37 @@ In order for OS X to rescan your .keyboardlayout files, the timestamp on that Ke
 1. Copy your new .keyboardlayout file to either ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. (Simply overwriting the file won’t update the directory.)
 
 
+## Installation Instructions (Windows)
+
+1. Run the setup file.
+
+Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. YMMV.
+
+
 ## Known Limitations
 
 - Ax and Exam are not included.
 - This keyboard layout isn’t designed to create ligatures.
 - [ZWJ][] and [ZWNJ][] are not included.
+- The underscore (_) is missing.
+- .Llan and .Loch are missing from the Windows version.
 
 
 ## Bugs
 
-- Ctrl-shortcuts (C-a, C-e, C-k) don’t work reliably, either in BBEdit or when you’re using Caps Lock as a Ctrl key.
+- Ctrl-shortcuts (C-a, C-e, C-k) don’t work reliably in OS X, either in BBEdit or when you’re using Caps Lock as a Ctrl key.
 - The included PDF layout is somewhat misleading; QWER generate code points for single and double curly quotes, not single and double angle quotation marks. (Kingsley, the font used to make this layout, uses guillemets instead of curly quotation marks for some reason.)
+
+
+## Hacking
+
+This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Microsoft Keyboard Layout Creator][msklc] for the Windows version.
+
 
 
 [qs]: http://en.wikipedia.org/wiki/Quikscript
 [uke]: http://scripts.sil.org/ukelele
+[msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
 [kokbd]: http://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
 
 [zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"
