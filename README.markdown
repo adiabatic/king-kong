@@ -36,9 +36,10 @@ The included Makefile does this for ~/Library/.
 
 ## Installation Instructions (Windows)
 
-1. [Download][] and run the setup file.
+1. Download[the installer .zip][windl] and extract it somewhere. Your Downloads folder works fine for this.
+1. Run setup.exe.
 
-Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. YMMV.
+Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. It works fine on my machine (64-bit on x64).
 
 
 ## Known Limitations
@@ -64,7 +65,7 @@ This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Micros
 [uke]: http://scripts.sil.org/ukelele
 [msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
 [kokbd]: http://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
-[download]: https://github.com/adiabatic/king-kong/raw/master/KingKong.PUA.setup.exe
+[windl]: https://github.com/adiabatic/king-kong/raw/master/KingKong.PUA.zip
 
 [zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"
 [zwnj]: http://en.wikipedia.org/wiki/Zero-width_non-joiner "no ligature here, please"
