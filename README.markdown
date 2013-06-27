@@ -31,6 +31,8 @@ In order for OS X to rescan your .keyboardlayout files, the timestamp on that Ke
 1. Delete the .keyboardlayout file in your Keyboard Layouts directory of choice.
 1. Copy your new .keyboardlayout file to either ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. (Simply overwriting the file won’t update the directory.)
 
+The included Makefile does this for ~/Library/.
+
 
 ## Installation Instructions (Windows)
 
@@ -42,21 +44,19 @@ Some people have reported that [MSKLC][]-generated setup files don’t work in s
 ## Known Limitations
 
 - Ax and Exam are not included.
-- This keyboard layout isn’t designed to create ligatures.
+- This keyboard layout isn’t designed to create ligatures. Use, make, or wait for a font that does that all by itself.
 - [ZWJ][] and [ZWNJ][] are not included.
-- The underscore (_) is missing.
 - .Llan and .Loch are missing from the Windows version.
 
 
 ## Bugs
 
 - Ctrl-shortcuts (C-a, C-e, C-k) don’t work reliably in OS X, either in BBEdit or when you’re using Caps Lock as a Ctrl key.
-- The included PDF layout is somewhat misleading; QWER generate code points for single and double curly quotes, not single and double angle quotation marks. (Kingsley, the font used to make this layout, uses guillemets instead of curly quotation marks for some reason.)
 
 
 ## Hacking
 
-This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Microsoft Keyboard Layout Creator][msklc] for the Windows version.
+This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Microsoft Keyboard Layout Creator 1.4][msklc] for the Windows version.
 
 
 
