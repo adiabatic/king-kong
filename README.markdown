@@ -36,7 +36,7 @@ The included Makefile does this for ~/Library/.
 
 ## Installation Instructions (Windows)
 
-1. Download[the installer .zip][windl] and extract it somewhere. Your Downloads folder works fine for this.
+1. Download [the installer .zip][windl] and extract it somewhere. Your Downloads folder works fine for this.
 1. Run setup.exe.
 
 Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. It works fine on my machine (64-bit on x64).
