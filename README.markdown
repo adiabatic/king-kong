@@ -42,6 +42,11 @@ The included Makefile does this for ~/Library/.
 Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. It works fine on my machine (64-bit on x64).
 
 
+## Reinstallation Instructions (Windows)
+
+I recommend uninstalling old versions of King Kong before updating. You can uninstall it in Programs and Features; it’s listed as “King Kong (PUA)”.
+
+
 ## Known Limitations
 
 - Ax and Exam are not included.
