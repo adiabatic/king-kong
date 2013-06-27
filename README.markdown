@@ -1,6 +1,6 @@
 # King Kong: A Quikscript Keyboard Layout
 
-King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final](kokbd) into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E. 
+King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final][kokbd] into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E. 
 
 
 ## Notable Features
