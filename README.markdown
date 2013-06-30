@@ -15,7 +15,7 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
   - – (en dash)
   - — (em dash)
 - The punctuation from shift-1 (!) to shift-7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
-- .Llan and .Loch are opt-l and opt-q, respectively.
+- .Llan and .Loch are opt-l and opt-q, respectively; .Ax and .Exam are on opt-Q and opt-!.
 
 
 ## Installation Instructions (OS X)
@@ -49,10 +49,8 @@ I recommend uninstalling old versions of King Kong before updating. You can unin
 
 ## Known Limitations
 
-- Ax and Exam are not included.
-- This keyboard layout isn’t designed to create ligatures. Use, make, or wait for a font that does that all by itself.
-- [ZWJ][] and [ZWNJ][] are not included.
-- .Llan and .Loch are missing from the Windows version.
+- This keyboard layout isn’t designed to create pre-ligated code points. Use a font that does that.
+- .Ax, .Exam, .Llan and .Loch are missing from the Windows version.
 
 
 ## Bugs
