@@ -43,12 +43,17 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
 
 ## Usage Instructions (OS X)
 
-Press Command-space to switch between your usual keyboard layout and King Kong.
+Toggle between your usual layout and King Kong by clicking on the flag in the menu bar. If this becomes tediously mouse-intensive:
+
+1. Go to System Preferences.
+1. Click on the “Shortcuts” tab.
+1. Click on “Input Sources” in the list on the left.
+1. Assign a keyboard shortcut to “Select next source in Input menu”. I like Ctrl-Space.
 
 
 ## Reinstallation Instructions (OS X)
 
-In order for OS X to rescan your .keylayout files, the timestamp on that Keyboard Layouts directory must change. The easiest way to do this is:
+In order for OS X to rescan your .keylayout files, the timestamp on the Keyboard Layouts directory must change. The easiest way to do this is:
 
 1. Delete the .keylayout file in your Keyboard Layouts directory of choice.
 1. Copy your new .keylayout file to either ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. (Simply overwriting the file won’t update the directory.)
@@ -62,6 +67,11 @@ The included Makefile does this for ~/Library/.
 1. Run setup.exe.
 
 Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. It works fine on my machine (64-bit on x64).
+
+
+## Usage Instructions (Windows)
+
+To toggle between your normal layout and King Kong, press Ctrl-Shift. In Windows 8.1 on my machine, “ENG US” will be displayed on the Taskbar when QWERTY is being used, and just “ENG” will be displayed when King Kong is enabled.
 
 
 ## Reinstallation Instructions (Windows)
