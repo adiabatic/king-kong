@@ -20,16 +20,16 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
 
 ## Installation Instructions (OS X)
 
-1. Copy the .keyboardlayout file to ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. If the folder you’re supposed to copy it to doesn’t exist, create it.
+1. Copy the .keylayout file to ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. If the folder you’re supposed to copy it to doesn’t exist, create it.
 1. Log out and back in.
 
 
 ## Reinstallation Instructions (OS X)
 
-In order for OS X to rescan your .keyboardlayout files, the timestamp on that Keyboard Layouts directory must change. The easiest way to do this is:
+In order for OS X to rescan your .keylayout files, the timestamp on that Keyboard Layouts directory must change. The easiest way to do this is:
 
-1. Delete the .keyboardlayout file in your Keyboard Layouts directory of choice.
-1. Copy your new .keyboardlayout file to either ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. (Simply overwriting the file won’t update the directory.)
+1. Delete the .keylayout file in your Keyboard Layouts directory of choice.
+1. Copy your new .keylayout file to either ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. (Simply overwriting the file won’t update the directory.)
 
 The included Makefile does this for ~/Library/.
 
