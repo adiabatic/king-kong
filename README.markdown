@@ -20,8 +20,30 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
 
 ## Installation Instructions (OS X)
 
-1. Copy the .keylayout file to ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. If the folder you’re supposed to copy it to doesn’t exist, create it.
+1. [Download a zipfile][zip] of the repository and double-click on it to extract it.
+1. Open another Finder window.
+1. from the Go menu, select “Go to Folder… (⇧⌘G)”
+1. Type “~/Library” (without the quotes) and press Enter.
+1. Create a new folder called “Keyboard Layouts” if one doesn’t exist already.
+1. Copy King Kong.PUA.keylayout to the Keyboard Layouts folder in ~/Library.
 1. Log out and back in.
+
+(if you’d like, you can also install King Kong in /Library/Keyboard Layouts, where it’ll be available to all users.)
+
+
+## Enabling Instructions (OS X)
+
+1. Open System Preferences.
+1. Click “Keyboard”.
+1. Click on the “Input Sources” tab.
+1. Click on the plus sign on the bottom left of the window.
+1. In the search box on the bottom left, type “King”. “Quikscript (King Kong)” should appear in the menu on the right.
+1. Double-click on “Quikscript (King Kong)”.
+
+
+## Usage Instructions (OS X)
+
+Press Command-space to switch between your usual keyboard layout and King Kong.
 
 
 ## Reinstallation Instructions (OS X)
@@ -69,6 +91,7 @@ This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Micros
 [msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
 [kokbd]: http://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
 [windl]: https://github.com/adiabatic/king-kong/raw/master/KingKong.PUA.zip
+[zip]: https://github.com/adiabatic/king-kong/archive/master.zip
 
 [zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"
 [zwnj]: http://en.wikipedia.org/wiki/Zero-width_non-joiner "no ligature here, please"
