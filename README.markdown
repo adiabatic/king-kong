@@ -95,6 +95,11 @@ I recommend uninstalling old versions of King Kong before updating. You can unin
 This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Microsoft Keyboard Layout Creator 1.4][msklc] for the Windows version.
 
 
+## Shameless Plugs
+
+Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
+
+
 
 [qs]: http://en.wikipedia.org/wiki/Quikscript
 [uke]: http://scripts.sil.org/ukelele
@@ -105,3 +110,6 @@ This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Micros
 
 [zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"
 [zwnj]: http://en.wikipedia.org/wiki/Zero-width_non-joiner "no ligature here, please"
+
+[shavian]: https://en.wikipedia.org/wiki/Shavian_alphabet
+[ks]: https://github.com/adiabatic/king-shaw
