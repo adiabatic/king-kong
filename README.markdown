@@ -14,8 +14,8 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
   - …
   - – (en dash)
   - — (em dash)
-- The punctuation from shift-1 (!) to shift-7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
-- .Llan and .Loch are opt-l and opt-q, respectively; .Ax and .Exam are on opt-Q and opt-!.
+- The punctuation from ⇧1 (!) to ⇧7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
+- .Llan and .Loch are ⌥L and ⌥X, respectively. .Ax and .Exam are on ⌥Q and ⌥1.
 
 
 ## Installation Instructions (OS X)
@@ -37,8 +37,8 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
 1. Click “Keyboard”.
 1. Click on the “Input Sources” tab.
 1. Click on the plus sign on the bottom left of the window.
-1. In the search box on the bottom left, type “King”. “Quikscript (King Kong)” should appear in the menu on the right.
-1. Double-click on “Quikscript (King Kong)”.
+1. In the search box on the bottom left, type “King”. “King Kong” should appear in the menu on the right.
+1. Double-click on “King Kong”.
 
 
 ## Usage Instructions (OS X)
@@ -73,6 +73,8 @@ Some people have reported that [MSKLC][]-generated setup files don’t work in s
 
 To toggle between your normal layout and King Kong, press Ctrl-Shift. In Windows 8.1 on my machine, “ENG US” will be displayed on the Taskbar when QWERTY is being used, and just “ENG” will be displayed when King Kong is enabled.
 
+.Ax, .Exam, .Llan, and .Loch are on AltGr (hold ctrl and alt simultaneously).
+
 
 ## Reinstallation Instructions (Windows)
 
@@ -82,7 +84,6 @@ I recommend uninstalling old versions of King Kong before updating. You can unin
 ## Known Limitations
 
 - This keyboard layout isn’t designed to create pre-ligated code points. Use a font that does that.
-- .Ax, .Exam, .Llan and .Loch are missing from the Windows version.
 
 
 ## Bugs
@@ -95,6 +96,16 @@ I recommend uninstalling old versions of King Kong before updating. You can unin
 This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Microsoft Keyboard Layout Creator 1.4][msklc] for the Windows version.
 
 
+## History
+
+### January 2017
+
+- Moved .Low (and .Llan) to L, swapping with .Tea on ;. I kept pressing L when I wanted .Low.
+- Moved .Pea to P, swapping with .Vie on [. I kept pressing P when I wanted .Pea.
+- Moved .Ax, .Exam, .Llan, and .Loch to sensible places on the option key.
+- Added Ergodox variant.
+
+
 ## Shameless Plugs
 
 Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
@@ -105,7 +116,7 @@ Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
 [uke]: http://scripts.sil.org/ukelele
 [msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
 [kokbd]: http://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
-[windl]: https://github.com/adiabatic/king-kong/raw/master/KingKong.PUA.zip
+[windl]: https://github.com/adiabatic/king-kong/raw/master/King%20Kong.PUA.zip
 [zip]: https://github.com/adiabatic/king-kong/archive/master.zip
 
 [zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"

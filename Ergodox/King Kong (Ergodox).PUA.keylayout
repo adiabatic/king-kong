@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- This file has been placed in the public domain. -->
 <!-- Created by Ukelele version 2.2.4 on 2013-05-15 at 18:26 (PDT) -->
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-11 at 04:45 (PST)-->
-<keyboard group="126" id="-25323" name="King Kong" maxout="1">
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-11 at 04:47 (PST)-->
+<keyboard group="126" id="-16607" name="King Kong (Ergodox)" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -77,7 +77,7 @@
 			<key code="30" output=";"/>
 			<key code="31" output=""/>
 			<key code="32" output=""/>
-			<key code="33" output=""/>
+			<key code="33" output="\"/>
 			<key code="34" output=""/>
 			<key code="35" output=""/>
 			<key code="36" output="&#x000D;"/>
@@ -86,7 +86,7 @@
 			<key code="39" output="&#x0027;"/>
 			<key code="40" output=""/>
 			<key code="41" output=""/>
-			<key code="42" output="\"/>
+			<key code="42" output=""/>
 			<key code="43" output=","/>
 			<key code="44" output="/"/>
 			<key code="45" output=""/>
