@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- This file has been placed in the public domain. -->
 <!-- Created by Ukelele version 2.2.4 on 2013-05-15 at 18:26 (PDT) -->
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-11 at 04:45 (PST)-->
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-17 at 09:48 (PST)-->
 <keyboard group="126" id="-25323" name="King Kong" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -263,8 +263,8 @@
 			<key code="5" output=""/>
 			<key code="6" output=""/>
 			<key code="7" output=""/>
-			<key code="8" output=""/>
-			<key code="9" output=""/>
+			<key code="8" output="£"/>
+			<key code="9" output="¢"/>
 			<key code="11" output=""/>
 			<key code="12" output=""/>
 			<key code="13" output=""/>
