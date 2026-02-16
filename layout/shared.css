@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Abbots Morton Spaceport Mono";
+  src: url("AbbotsMortonSpaceportMono.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Abbots Morton Spaceport Sans Junior";
+  src: url("AbbotsMortonSpaceportSansJunior.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Abbots Morton Spaceport Sans Senior";
+  src: url("AbbotsMortonSpaceportSansSenior.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Departure Mono";
+  src: url("DepartureMono-Regular.otf") format("opentype");
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  font-family: var(--font-stack);
+  font-size: 11px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: light-dark(#f5f5f5, #1a1a1a);
+  color: light-dark(#222, #e0e0e0);
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: light-dark(#0066cc, #4a9eff);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 66px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid light-dark(#ccc, #444);
+
+  a {
+    color: light-dark(#0066cc, #4a9eff);
+  }
+}
