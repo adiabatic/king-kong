@@ -1,100 +1,86 @@
-# King Kong: A Quikscript Keyboard Layout
+# King Kong: A Quikscript keyboard layout
 
-King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final][kokbd] into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E. 
+King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final][kokbd] into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E.
 
+## Notable features
 
-## Notable Features
-
-- The more common letters (.It, .No, .Utter, etc.) are placed in easier-to-type positions. Infrequently-used letters like .J’ai and .Jay require reaching.
+- The more common letters (·It, ·No, ·Utter, etc.) are placed in easier-to-type positions. Infrequently-used letters like ·J’ai and ·Jay require reaching.
 - Vowels are in the middle, consonants are on the edges.
 - Numbers are in a 3×3 grid on the right side of the keyboard; hold Shift to type them.
 - there are dedicated keys for the following:
   - “ and ”
-  - ‘ and  ’
+  - ‘ and ’
   - …
   - – (en dash)
   - — (em dash)
 - The punctuation from ⇧1 (!) to ⇧7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
 - .Llan and .Loch are ⌥L and ⌥X, respectively. .Ax and .Exam are on ⌥Q and ⌥1.
 
-
-## Installation Instructions (OS X)
+## Installation instructions (macOS)
 
 1. [Download a zipfile][zip] of the repository and double-click on it to extract it.
 1. Open another Finder window.
-1. from the Go menu, select “Go to Folder… (⇧⌘G)”
-1. Type “~/Library” (without the quotes) and press Enter.
-1. Create a new folder called “Keyboard Layouts” if one doesn’t exist already.
-1. Copy King Kong.PUA.keylayout to the Keyboard Layouts folder in ~/Library.
-1. Log out and back in.
+1. from the Go menu, select `Go to Folder… (⇧⌘G)`
+1. Type `~/Library` and press Enter.
+1. Create a new folder called `Keyboard Layouts` if one doesn’t exist already.
+1. Copy King Kong.PUA.keylayout to the `Keyboard Layouts` folder in `~/Library`.
 
 (if you’d like, you can also install King Kong in /Library/Keyboard Layouts, where it’ll be available to all users.)
 
+## Enabling instructions (macOS 26)
 
-## Enabling Instructions (OS X)
+1. Open System Settings.
+1. Scroll down on the left until you get to `Keyboard`. Click on it.
+1. Scroll down to the `Text Input` section. In the `Input Sources` list item, you’ll see something like `Input Sources: U.S. [Edit…]`. Click on the `Edit` button.
+1. Click on the plus sign on the bottom left of the modal window.
+1. In the search box on the bottom left, type “King”. “King Kong” should appear in the menu on the right. Or you can scroll down to the bottom of the list and choose `Others`. King Kong should be in that list.
+1. Click on `King Kong` and then click on `Add`.
 
-1. Open System Preferences.
-1. Click “Keyboard”.
-1. Click on the “Input Sources” tab.
-1. Click on the plus sign on the bottom left of the window.
-1. In the search box on the bottom left, type “King”. “King Kong” should appear in the menu on the right.
-1. Double-click on “King Kong”.
+## Usage instructions (macOS)
 
+Toggle between your usual layout and King Kong by clicking on the menu bar entry. If your setup is like mine, you’ll have an `A` on a solid background for the U.S. layout and a keyboard icon for King Kong.
 
-## Usage Instructions (OS X)
+You should, by default, be able to cycle forward through all your keyboard layouts with ⌃␣ (Control-space).
 
-Toggle between your usual layout and King Kong by clicking on the flag in the menu bar. If this becomes tediously mouse-intensive:
-
-1. Go to System Preferences.
-1. Click on the “Shortcuts” tab.
-1. Click on “Input Sources” in the list on the left.
-1. Assign a keyboard shortcut to “Select next source in Input menu”. I like Ctrl-Space.
-
-
-## Reinstallation Instructions (OS X)
+## Reinstallation instructions (macOS)
 
 In order for OS X to rescan your .keylayout files, the timestamp on the Keyboard Layouts directory must change. The easiest way to do this is:
 
-1. Delete the .keylayout file in your Keyboard Layouts directory of choice.
-1. Copy your new .keylayout file to either ~/Library/Keyboard Layouts/ or /Library/Keyboard Layouts/. (Simply overwriting the file won’t update the directory.)
+1. Delete the `.keylayout` file in your `Keyboard Layouts` directory of choice.
+1. Copy your new `.keylayout` file to either `~/Library/Keyboard Layouts/` or `/Library/Keyboard Layouts/`.
 
-The included Makefile does this for ~/Library/.
+Simply overwriting the file won’t update the directory.
 
+The included `Makefile` does this for `~/Library/`.
 
-## Installation Instructions (Windows)
+## Installation instructions (Windows)
 
 1. Download [the installer .zip][windl] and extract it somewhere. Your Downloads folder works fine for this.
 1. Run setup.exe.
 
 Some people have reported that [MSKLC][]-generated setup files don’t work in some versions of Windows 8. It works fine on my machine (64-bit on x64).
 
-
-## Usage Instructions (Windows)
+## Usage instructions (Windows)
 
 To toggle between your normal layout and King Kong, press Ctrl-Shift. In Windows 8.1 on my machine, “ENG US” will be displayed on the Taskbar when QWERTY is being used, and just “ENG” will be displayed when King Kong is enabled.
 
 .Ax, .Exam, .Llan, and .Loch are on AltGr (hold ctrl and alt simultaneously).
 
-
-## Reinstallation Instructions (Windows)
+## Reinstallation instructions (Windows)
 
 I recommend uninstalling old versions of King Kong before updating. You can uninstall it in Programs and Features; it’s listed as “King Kong (PUA)”.
 
-
-## Known Limitations
+## Known limitations
 
 - This keyboard layout isn’t designed to create pre-ligated code points. Use a font that does that.
 
-
 ## Bugs
 
-- Ctrl-shortcuts (C-a, C-e, C-k) don’t work reliably in OS X, either in BBEdit or when you’re using Caps Lock as a Ctrl key.
-
+- Ctrl-shortcuts (C-a, C-e, C-k) don’t work reliably in macOS, either in BBEdit or when you’re using Caps Lock as a Ctrl key.
 
 ## Hacking
 
-This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Microsoft Keyboard Layout Creator 1.4][msklc] for the Windows version.
-
+This layout is maintained in [Ukelele][uke] for the macOS layout, and the [Microsoft Keyboard Layout Creator 1.4][msklc] for the Windows version.
 
 ## History
 
@@ -105,12 +91,9 @@ This layout is maintained in [Ukelele][uke] for the OS X layout, and the [Micros
 - Moved .Ax, .Exam, .Llan, and .Loch to sensible places on the option key.
 - Added Ergodox variant.
 
-
-## Shameless Plugs
+## Shameless plugs
 
 Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
-
-
 
 [qs]: http://en.wikipedia.org/wiki/Quikscript
 [uke]: http://scripts.sil.org/ukelele
