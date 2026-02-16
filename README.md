@@ -15,6 +15,7 @@ King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of th
   - — (em dash)
 - The punctuation from ⇧1 (!) to ⇧7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
 - .Llan and .Loch are ⌥L and ⌥X, respectively. .Ax and .Exam are on ⌥Q and ⌥1.
+- a [zero-width non-joiner][zwnj] key
 
 ## Installation instructions (macOS)
 
