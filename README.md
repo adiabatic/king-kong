@@ -2,6 +2,8 @@
 
 King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final][kokbd] into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E.
 
+Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’re prbably more interested in the MacBook layout at the bottom than you are in the Ergodox EZ layout at the top. A couple keys are switched between the two layouts.
+
 ## Notable features
 
 - The more common letters (·It, ·No, ·Utter, etc.) are placed in easier-to-type positions. Infrequently-used letters like ·J’ai and ·Jay require reaching.
