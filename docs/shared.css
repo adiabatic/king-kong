@@ -4,16 +4,6 @@
 }
 
 @font-face {
-  font-family: "Abbots Morton Spaceport Sans Junior";
-  src: url("AbbotsMortonSpaceportSansJunior.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Abbots Morton Spaceport Sans Senior";
-  src: url("AbbotsMortonSpaceportSansSenior.otf") format("opentype");
-}
-
-@font-face {
   font-family: "Departure Mono";
   src: url("DepartureMono-Regular.otf") format("opentype");
 }
@@ -29,6 +19,7 @@
   --key-bg: light-dark(#fff, #2a2a2a);
   --key-border: light-dark(#aaa, #555);
   --divider: light-dark(#ddd, #444);
+  --accent: light-dark(#0066cc, #4a9eff);
 }
 
 html {
@@ -55,28 +46,16 @@ body {
 
 h1,
 h2 {
-  color: light-dark(#0066cc, #4a9eff);
+  color: var(--accent);
   font-weight: normal;
 }
 
 h1 {
   font-size: 44px;
-  font-weight: 600;
 }
 
 h2 {
   font-size: 33px;
-}
-
-footer {
-  text-align: center;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid light-dark(#ccc, #444);
-
-  a {
-    color: light-dark(#0066cc, #4a9eff);
-  }
 }
 
 .row {
@@ -111,7 +90,6 @@ footer {
 
 .key > .latin {
   border-bottom: 1px solid var(--divider);
-  font-family: "Departure Mono", monospace;
 }
 
 .key > .qs {
