@@ -5,181 +5,6 @@
   <meta name="viewport" content="width=1100">
   <title>King Kong layouts</title>
   <link rel="stylesheet" href="shared.css">
-  <style>
-    :root {
-      --u: 60px;
-      --key-h: 66px;
-      --gap: 2px;
-      --w150: calc(var(--u) * 1.5);
-      --hand-w: calc(var(--w150) + var(--u) * 6 + var(--gap) * 6);
-      --key-bg: light-dark(#fff, #2a2a2a);
-      --key-border: light-dark(#aaa, #555);
-      --divider: light-dark(#ddd, #444);
-    }
-
-    :root {
-      --font-stack: "Departure Mono", monospace;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 33px;
-      font-weight: 600;
-    }
-
-    .row {
-      display: flex;
-      gap: var(--gap);
-      height: var(--key-h);
-      overflow: visible;
-    }
-
-    .key {
-      width: var(--u);
-      height: var(--key-h);
-      border: 1px solid var(--key-border);
-      border-radius: 4px;
-      background: var(--key-bg);
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      flex-shrink: 0;
-      font-size: 22px;
-    }
-
-    .key > .latin,
-    .key > .qs {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 0;
-      outline: none;
-    }
-
-    .key > .latin {
-      border-bottom: 1px solid var(--divider);
-      font-family: "Departure Mono", monospace;
-    }
-
-    .key > .qs {
-      font-family: "Abbots Morton Spaceport Mono", "Departure Mono", monospace;
-      background: light-dark(#f7f5f0, #28261f);
-      position: relative;
-
-      .shifted, .optioned {
-        position: absolute;
-        font-size: 11px;
-        font-family: "Departure Mono", monospace;
-        color: light-dark(#555, #b0b0b0);
-      }
-
-      .shifted {
-        top: 1px;
-        left: 2px;
-      }
-
-      .optioned {
-        bottom: 1px;
-        right: 2px;
-        font-family: "Abbots Morton Spaceport Mono", monospace;
-      }
-    }
-
-    .w125 { width: calc(var(--u) * 1.25); }
-    .w150 { width: var(--w150); }
-    .w175 { width: calc(var(--u) * 1.75); }
-    .w200 { width: calc(var(--u) * 2); }
-    .w225 { width: calc(var(--u) * 2.25); }
-    .w275 { width: calc(var(--u) * 2.75); }
-
-    /* Ergodox EZ */
-    .keyboard.ergodox {
-      display: flex;
-      gap: 48px;
-      align-items: flex-start;
-
-      .hand {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-      }
-
-      .main-keys {
-        display: flex;
-        flex-direction: column;
-        gap: var(--gap);
-        width: var(--hand-w);
-      }
-
-      .key.h150 {
-        height: calc(var(--key-h) * 1.5 + var(--gap));
-        align-self: flex-start;
-        z-index: 1;
-      }
-
-      .key.h150-up {
-        height: calc(var(--key-h) * 1.5 + var(--gap));
-        align-self: flex-end;
-        z-index: 1;
-      }
-
-      .left > .main-keys > .row:nth-child(5) {
-        margin-left: calc(var(--u) * 0.4);
-      }
-
-      .right > .main-keys > .row:nth-child(3) {
-        justify-content: flex-end;
-      }
-
-      .right > .main-keys > .row:nth-child(5) {
-        justify-content: flex-end;
-        margin-right: calc(var(--u) * 0.4);
-      }
-
-      .thumb {
-        display: grid;
-        grid-template-columns: repeat(3, var(--u));
-        grid-template-rows: repeat(3, var(--key-h));
-        gap: var(--gap);
-      }
-
-      .left > .thumb {
-        margin-left: auto;
-      }
-
-      .left > .thumb > :nth-child(1) { grid-column: 2; grid-row: 1; }
-      .left > .thumb > :nth-child(2) { grid-column: 3; grid-row: 1; }
-      .left > .thumb > :nth-child(3) { grid-column: 3; grid-row: 2; }
-      .left > .thumb > :nth-child(4) { grid-column: 1; grid-row: 2 / 4; height: auto; }
-      .left > .thumb > :nth-child(5) { grid-column: 2; grid-row: 2 / 4; height: auto; }
-      .left > .thumb > :nth-child(6) { grid-column: 3; grid-row: 3; }
-
-      .right > .thumb > :nth-child(1) { grid-column: 1; grid-row: 1; }
-      .right > .thumb > :nth-child(2) { grid-column: 2; grid-row: 1; }
-      .right > .thumb > :nth-child(3) { grid-column: 1; grid-row: 2; }
-      .right > .thumb > :nth-child(4) { grid-column: 1; grid-row: 3; }
-      .right > .thumb > :nth-child(5) { grid-column: 2; grid-row: 2 / 4; height: auto; }
-      .right > .thumb > :nth-child(6) { grid-column: 3; grid-row: 2 / 4; height: auto; }
-    }
-
-    /* MacBook */
-    .keyboard.macbook {
-      display: flex;
-      flex-direction: column;
-      gap: var(--gap);
-      width: calc(var(--u) * 15 + var(--gap) * 13);
-    }
-
-    .key.space {
-      flex-grow: 1;
-    }
-  </style>
 </head>
 <body>
   <h1>King Kong layouts</h1>
@@ -205,8 +30,8 @@
           <div class="key w150"><span class="latin">⌦</span><span class="qs"></span></div>
           <div class="key"><span class="latin">q</span><span class="qs"><span class="shifted">(</span><span class="optioned">&#xE66B;</span>&#xE654;</span></div>
           <div class="key"><span class="latin">w</span><span class="qs"><span class="shifted">)</span>&#xE661;</span></div>
-          <div class="key"><span class="latin">e</span><span class="qs"><span class="shifted" style="font-family: 'Abbots Morton Spaceport Mono', monospace">&#xE66E;</span>&#xE657;</span></div>
-          <div class="key"><span class="latin">r</span><span class="qs"><span class="shifted" style="font-family: 'Abbots Morton Spaceport Mono', monospace">&#xE66F;</span>&#xE67C;</span></div>
+          <div class="key"><span class="latin">e</span><span class="qs"><span class="shifted qs-font">&#xE66E;</span>&#xE657;</span></div>
+          <div class="key"><span class="latin">r</span><span class="qs"><span class="shifted qs-font">&#xE66F;</span>&#xE67C;</span></div>
           <div class="key"><span class="latin">t</span><span class="qs"><span class="shifted">&#x2013;</span>&#xE677;</span></div>
           <div class="key h150"><span class="latin"></span><span class="qs"></span></div>
         </div>
@@ -336,8 +161,8 @@
       <div class="key w150"><span class="latin">⇥</span><span class="qs"></span></div>
       <div class="key"><span class="latin">q</span><span class="qs"><span class="shifted">(</span><span class="optioned">&#xE66B;</span>&#xE654;</span></div>
       <div class="key"><span class="latin">w</span><span class="qs"><span class="shifted">)</span>&#xE661;</span></div>
-      <div class="key"><span class="latin">e</span><span class="qs"><span class="shifted" style="font-family: 'Abbots Morton Spaceport Mono', monospace">&#xE66E;</span>&#xE657;</span></div>
-      <div class="key"><span class="latin">r</span><span class="qs"><span class="shifted" style="font-family: 'Abbots Morton Spaceport Mono', monospace">&#xE66F;</span>&#xE67C;</span></div>
+      <div class="key"><span class="latin">e</span><span class="qs"><span class="shifted qs-font">&#xE66E;</span>&#xE657;</span></div>
+      <div class="key"><span class="latin">r</span><span class="qs"><span class="shifted qs-font">&#xE66F;</span>&#xE67C;</span></div>
       <div class="key"><span class="latin">t</span><span class="qs"><span class="shifted">&#x2013;</span>&#xE677;</span></div>
       <div class="key"><span class="latin">y</span><span class="qs"><span class="shifted">*</span>&#xE675;</span></div>
       <div class="key"><span class="latin">u</span><span class="qs"><span class="shifted">4</span>&#xE673;</span></div>
