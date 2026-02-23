@@ -52,10 +52,14 @@ h2 {
 
 h1 {
   font-size: 44px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: 33px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .row {
