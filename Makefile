@@ -7,12 +7,10 @@ TARGETDIR         = "$(HOME)/Library/Keyboard Layouts"
 replace:
 	-rm $(TARGETDIR)/$(KEYLAYOUT)
 	cp $(KEYLAYOUT) $(TARGETDIR)
-	cp "King Kong.icns" $(TARGETDIR)
 
 ergodox:
 	-rm $(TARGETDIR)/$(KEYLAYOUT_ERGODOX)
 	cp $(KEYLAYOUT_ERGODOX) $(TARGETDIR)
-	cp "Ergodox/King Kong (Ergodox).icns" $(TARGETDIR)
 
 pngs:
 	mkdir -p "$(CURDIR)/King Kong.iconset"
@@ -28,4 +26,3 @@ pngs:
 	sips -z 16 16 "$(CURDIR)/King Kong.iconset/icon_32x32@2x.png" --out "$(CURDIR)/King Kong.iconset/icon_16x16.png"
 	oxipng --preserve --opt max "$(CURDIR)/King Kong.iconset/"*.png
 	iconutil -c icns "$(CURDIR)/King Kong.iconset"
-	cp "$(CURDIR)/King Kong.icns" "$(CURDIR)/Ergodox/King Kong (Ergodox).icns"
