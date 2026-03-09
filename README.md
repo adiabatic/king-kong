@@ -25,7 +25,7 @@ Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’r
 1. from the Go menu, select `Go to Folder… (⇧⌘G)`
 1. Type `~/Library` and press Enter.
 1. Create a new folder called `Keyboard Layouts` if one doesn’t exist already.
-1. Copy King Kong.PUA.keylayout to the `Keyboard Layouts` folder in `~/Library`.
+1. Copy King Kong.keylayout to the `Keyboard Layouts` folder in `~/Library`.
 
 (if you’d like, you can also install King Kong in /Library/Keyboard Layouts, where it’ll be available to all users.)
 
@@ -105,7 +105,7 @@ Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
 [uke]: https://software.sil.org/ukelele/
 [msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
 [kokbd]: https://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
-[windl]: https://github.com/adiabatic/king-kong/raw/master/King%20Kong.PUA.zip
+[windl]: https://github.com/adiabatic/king-kong/raw/master/King%20Kong.zip
 [zip]: https://github.com/adiabatic/king-kong/archive/master.zip
 
 [shavian]: https://en.wikipedia.org/wiki/Shavian_alphabet
