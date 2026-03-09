@@ -17,7 +17,6 @@ Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’r
   - — (em dash)
 - The punctuation from ⇧1 (!) to ⇧7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
 - .Llan and .Loch are ⌥L and ⌥X, respectively. .Ax and .Exam are on ⌥Q and ⌥1.
-- a [zero-width non-joiner][zwnj] key
 
 ## Installation instructions (macOS)
 
@@ -87,6 +86,10 @@ This layout is maintained in [Ukelele][uke] for the macOS layout, and the [Micro
 
 ## History
 
+### March 2026
+
+- Remove ZWNJ key
+
 ### January 2017
 
 - Moved .Low (and .Llan) to L, swapping with .Tea on ;. I kept pressing L when I wanted .Low.
@@ -104,8 +107,6 @@ Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
 [kokbd]: https://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
 [windl]: https://github.com/adiabatic/king-kong/raw/master/King%20Kong.PUA.zip
 [zip]: https://github.com/adiabatic/king-kong/archive/master.zip
-
-[zwnj]: http://en.wikipedia.org/wiki/Zero-width_non-joiner "no ligature here, please"
 
 [shavian]: https://en.wikipedia.org/wiki/Shavian_alphabet
 [ks]: https://github.com/adiabatic/king-shaw
