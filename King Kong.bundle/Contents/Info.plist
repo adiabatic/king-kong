@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.kingkong</string>
+	<key>CFBundleName</key>
+	<string>King Kong</string>
+	<key>CFBundleVersion</key>
+	<string></string>
+	<key>KLInfo_King Kong</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.kingkong.kingkong</string>
+		<key>TISIntendedLanguage</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
