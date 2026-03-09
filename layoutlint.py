@@ -11,7 +11,7 @@ r = re.compile(r'\s*<key code="(\d*)" output="(.*)"/>')
 lines = []
 usedLetters = set()
 
-with open('Godzilla.PUA.keylayout') as f:
+with open('King Kong.keylayout') as f:
 	lines = f.readlines()
 
 for line in lines:
