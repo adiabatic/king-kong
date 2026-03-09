@@ -19,11 +19,12 @@ pngs:
 	TMPJS=$$(mktemp /tmp/acorn_export.XXXXXX.js); \
 	printf '%s\n' \
 		'var doc = acorn.open("$(CURDIR)/King Kong.PUA.acorn");' \
-		'doc.webExportWithOptions({ uti: "public.png", file: "$(CURDIR)/King Kong.PUA.iconset/icon_16x16@2x.png" });' \
+		'doc.webExportWithOptions({ uti: "public.png", file: "$(CURDIR)/King Kong.PUA.iconset/icon_32x32@2x.png" });' \
 		> "$$TMPJS"; \
 	/Applications/Acorn.app/Contents/MacOS/Acorn -js "$$TMPJS"; \
 	rm -f "$$TMPJS"; \
-	sips -z 16 16 "$(CURDIR)/King Kong.PUA.iconset/icon_16x16@2x.png" --out "$(CURDIR)/King Kong.PUA.iconset/icon_16x16.png"; \
-	cp "$(CURDIR)/King Kong.PUA.iconset/icon_16x16@2x.png" "$(CURDIR)/King Kong.PUA.iconset/icon_32x32.png"; \
-	sips -z 64 64 "$(CURDIR)/King Kong.PUA.iconset/icon_16x16@2x.png" --out "$(CURDIR)/King Kong.PUA.iconset/icon_32x32@2x.png"; \
-	oxipng --preserve --opt max "$(CURDIR)/King Kong.PUA.iconset/"*.png
+	sips -z 32 32 "$(CURDIR)/King Kong.PUA.iconset/icon_32x32@2x.png" --out "$(CURDIR)/King Kong.PUA.iconset/icon_32x32.png"; \
+	cp "$(CURDIR)/King Kong.PUA.iconset/icon_32x32.png" "$(CURDIR)/King Kong.PUA.iconset/icon_16x16@2x.png"; \
+	sips -z 16 16 "$(CURDIR)/King Kong.PUA.iconset/icon_32x32@2x.png" --out "$(CURDIR)/King Kong.PUA.iconset/icon_16x16.png"; \
+	oxipng --preserve --opt max "$(CURDIR)/King Kong.PUA.iconset/"*.png; \
+	iconutil -c icns "$(CURDIR)/King Kong.PUA.iconset"
