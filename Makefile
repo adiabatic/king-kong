@@ -9,12 +9,12 @@ ICONSET    = King\ Kong.PUA.iconset
 replace:
 	-rm $(TARGETDIR)/$(KEYLAYOUT)
 	cp $(KEYLAYOUT)  $(TARGETDIR)
-	cp King\ Kong.PUA.icns  $(TARGETDIR)
+	cp King\ Kong.PUA.icns  $(TARGETDIR)/King\ Kong.icns
 
 ergodox:
 	-rm $(TARGETDIR)/$(KEYLAYOUT_ERGODOX)
 	cp $(KEYLAYOUT_ERGODOX)  $(TARGETDIR)
-	cp Ergodox/King\ Kong\ \(Ergodox\).PUA.icns  $(TARGETDIR)
+	cp Ergodox/King\ Kong\ \(Ergodox\).PUA.icns  $(TARGETDIR)/King\ Kong\ \(Ergodox\).icns
 
 pngs:
 	mkdir -p "$(CURDIR)/King Kong.PUA.iconset"
