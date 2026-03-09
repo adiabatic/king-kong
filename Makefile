@@ -28,3 +28,4 @@ pngs:
 	sips -z 16 16 "$(CURDIR)/King Kong.PUA.iconset/icon_32x32@2x.png" --out "$(CURDIR)/King Kong.PUA.iconset/icon_16x16.png"
 	oxipng --preserve --opt max "$(CURDIR)/King Kong.PUA.iconset/"*.png
 	iconutil -c icns "$(CURDIR)/King Kong.PUA.iconset"
+	cp "$(CURDIR)/King Kong.PUA.icns" "$(CURDIR)/Ergodox/King Kong (Ergodox).PUA.icns"
