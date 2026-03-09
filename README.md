@@ -86,10 +86,6 @@ This layout is maintained in [Ukelele][uke] for the macOS layout, and the [Micro
 
 ## History
 
-### March 2026
-
-- Remove ZWNJ key
-
 ### January 2017
 
 - Moved .Low (and .Llan) to L, swapping with .Tea on ;. I kept pressing L when I wanted .Low.
