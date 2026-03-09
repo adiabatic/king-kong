@@ -1,16 +1,21 @@
 @font-face {
+  font-family: "Abbots Morton Spaceport Sans";
+  src: url("AbbotsMortonSpaceportSansJunior.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Abbots Morton Spaceport Mono";
-  src: url("AbbotsMortonSpaceportMono.otf") format("opentype");
+  src: url("AbbotsMortonSpaceportMono.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Departure Mono";
-  src: url("DepartureMono-Regular.otf") format("opentype");
+  src: url("DepartureMono-Regular.woff2") format("woff2");
 }
 
 :root {
   color-scheme: light dark;
-  --font-stack: "Departure Mono", monospace;
+  --font-stack: "Abbots Morton Spaceport Sans", "Departure Mono", monospace;
   --u: 60px;
   --key-h: 66px;
   --gap: 2px;
