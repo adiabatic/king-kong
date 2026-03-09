@@ -1,20 +1,18 @@
 .PHONY: replace ergodox pngs
 
-KEYLAYOUT         = King\ Kong.keylayout
-KEYLAYOUT_ERGODOX = Ergodox/King\ Kong\ \(Ergodox\).keylayout
-TARGETDIR = ~/Library/Keyboard\ Layouts
-ACORN_FILE = King\ Kong.acorn
-ICONSET    = King\ Kong.iconset
+KEYLAYOUT         = "King Kong.keylayout"
+KEYLAYOUT_ERGODOX = "Ergodox/King Kong (Ergodox).keylayout"
+TARGETDIR         = "$(HOME)/Library/Keyboard Layouts"
 
 replace:
 	-rm $(TARGETDIR)/$(KEYLAYOUT)
-	cp $(KEYLAYOUT)  $(TARGETDIR)
-	cp King\ Kong.icns  $(TARGETDIR)
+	cp $(KEYLAYOUT) $(TARGETDIR)
+	cp "King Kong.icns" $(TARGETDIR)
 
 ergodox:
 	-rm $(TARGETDIR)/$(KEYLAYOUT_ERGODOX)
-	cp $(KEYLAYOUT_ERGODOX)  $(TARGETDIR)
-	cp Ergodox/King\ Kong\ \(Ergodox\).icns  $(TARGETDIR)
+	cp $(KEYLAYOUT_ERGODOX) $(TARGETDIR)
+	cp "Ergodox/King Kong (Ergodox).icns" $(TARGETDIR)
 
 pngs:
 	mkdir -p "$(CURDIR)/King Kong.iconset"
