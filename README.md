@@ -98,14 +98,13 @@ This layout is maintained in [Ukelele][uke] for the macOS layout, and the [Micro
 
 Prefer to type in [Shavian][] instead? Have a look at [King Shaw][ks].
 
-[qs]: http://en.wikipedia.org/wiki/Quikscript
-[uke]: http://scripts.sil.org/ukelele
+[qs]: https://en.wikipedia.org/wiki/Quikscript
+[uke]: https://software.sil.org/ukelele/
 [msklc]: http://msdn.microsoft.com/en-us/goglobal/bb964665.aspx
-[kokbd]: http://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
+[kokbd]: https://en.wikipedia.org/wiki/Keyboard_layout#Sebeolsik_390
 [windl]: https://github.com/adiabatic/king-kong/raw/master/King%20Kong.PUA.zip
 [zip]: https://github.com/adiabatic/king-kong/archive/master.zip
 
-[zwj]: http://en.wikipedia.org/wiki/Zero-width_joiner "ligature here, please"
 [zwnj]: http://en.wikipedia.org/wiki/Zero-width_non-joiner "no ligature here, please"
 
 [shavian]: https://en.wikipedia.org/wiki/Shavian_alphabet
