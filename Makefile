@@ -1,4 +1,4 @@
-.PHONY: normal ergodox normal-bundle ergodox-bundle open-keyboard-layouts-folder pngs
+.PHONY: normal ergodox normal-bundle ergodox-bundle freshen-keylayouts open-keyboard-layouts-folder pngs
 
 KEYLAYOUT         = "King Kong.keylayout"
 KEYLAYOUT_ERGODOX = "Ergodox/King Kong (Ergodox).keylayout"
@@ -21,6 +21,10 @@ normal-bundle:
 ergodox-bundle:
 	-rm -r $(TARGETDIR)/$(BUNDLE_ERGODOX)
 	cp -r $(BUNDLE_ERGODOX) $(TARGETDIR)
+
+freshen-keylayouts:
+	cp $(KEYLAYOUT) $(BUNDLE)/Contents/Resources/
+	cp $(KEYLAYOUT_ERGODOX) $(BUNDLE_ERGODOX)/Contents/Resources/
 
 open-keyboard-layouts-folder:
 	open "$(HOME)/Library/Keyboard Layouts/"
