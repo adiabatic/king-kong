@@ -2,8 +2,8 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- This file has been placed in the public domain. -->
 <!-- Created by Ukelele version 2.2.4 on 2013-05-15 at 18:26 (PDT) -->
-<!--Last edited by Ukelele version 452 on 2026-03-09 at 02:34 (PDT)-->
-<keyboard group="126" id="-8336" name="King Kong" maxout="1">
+<!--Last edited by Ukelele version 452 on 2026-03-08 at 23:46 (PDT)-->
+<keyboard group="126" id="-25323" name="King Kong" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
