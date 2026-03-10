@@ -1,8 +1,8 @@
-# King Kong: A Quikscript keyboard layout
+# King Kong: a Quikscript keyboard layout
 
 King Kong is a keyboard layout for [Quikscript][qs] that incorporates some of the design decisions of [Sebeolsik 390 and Final][kokbd] into a keyboard designed for Anglophones. It generates code points in the Private Use Area — from U+E650 to U+E67E.
 
-Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’re prbably more interested in the MacBook layout at the bottom than you are in the Ergodox EZ layout at the top. A couple keys are switched between the two layouts.
+Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’re probably more interested in the MacBook layout at the bottom than you are in the Ergodox EZ layout at the top. A couple keys are switched between the two layouts.
 
 ## Notable features
 
@@ -16,16 +16,34 @@ Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’r
   - – (en dash)
   - — (em dash)
 - The punctuation from ⇧1 (!) to ⇧7 (&) has been moved down and to the right, and are on the shifted Z through M keys.
-- .Llan and .Loch are ⌥L and ⌥X, respectively. .Ax and .Exam are on ⌥Q and ⌥1.
+- ·Llan and ·Loch are ⌥L and ⌥X, respectively. ·Ax and ·Exam are on ⌥Q and ⌥1.
 
 ## Installation instructions (macOS)
 
+Zeroth, you’ll want to figure out if you want to install just the `.keylayout` file or the bundle.
+
+The bundle:
+
+- has a cool distinctive icon (instead of the stock keyboard icon)
+- makes a white-on-blue “A” icon show up sometimes when you go to type in a text box (not unlike when you start Dictation and a white-on-blue microphone icon shows up)
+
+The raw .keylayout has neither of these things.
+
+To actually install either the `.keylayout` file or the bundle:
+
 1. [Download a zipfile][zip] of the repository and double-click on it to extract it.
-1. Open another Finder window.
-1. from the Go menu, select `Go to Folder… (⇧⌘G)`
-1. Type `~/Library` and press Enter.
-1. Create a new folder called `Keyboard Layouts` if one doesn’t exist already.
-1. Copy King Kong.keylayout to the `Keyboard Layouts` folder in `~/Library`.
+2. Open another Finder window.
+3. from the Go menu, select `Go to Folder… (⇧⌘G)`
+4. Type `~/Library` and press Enter.
+5. Create a new folder called `Keyboard Layouts` if one doesn’t exist already.
+
+And either…
+
+6. Copy `King Kong.keylayout` to the `Keyboard Layouts` folder in `~/Library/`.
+
+or…
+
+6. Copy `King Kong.bundle` to the `Keyboard Layouts` folder in `~/Library/`.
 
 (if you’d like, you can also install King Kong in /Library/Keyboard Layouts, where it’ll be available to all users.)
 
@@ -42,7 +60,7 @@ Want to just look at it? Visit <https://adiabatic.github.io/king-kong/>. You’r
 
 Toggle between your usual layout and King Kong by clicking on the menu bar entry. If your setup is like mine, you’ll have an `A` on a solid background for the U.S. layout and a keyboard icon for King Kong.
 
-You should, by default, be able to cycle forward through all your keyboard layouts with ⌃␣ (Control-space).
+You should, by default, be able to cycle forward through all your keyboard layouts with ⌃␣ (Control-space). You can adjust this in System Settings.
 
 ## Reinstallation instructions (macOS)
 
@@ -66,7 +84,7 @@ Some people have reported that [MSKLC][]-generated setup files don’t work in s
 
 To toggle between your normal layout and King Kong, press Ctrl-Shift. In Windows 8.1 on my machine, “ENG US” will be displayed on the Taskbar when QWERTY is being used, and just “ENG” will be displayed when King Kong is enabled.
 
-.Ax, .Exam, .Llan, and .Loch are on AltGr (hold ctrl and alt simultaneously).
+·Ax, ·Exam, ·Llan, and ·Loch are on AltGr (hold ctrl and alt simultaneously).
 
 ## Reinstallation instructions (Windows)
 
@@ -88,9 +106,9 @@ This layout is maintained in [Ukelele][uke] for the macOS layout, and the [Micro
 
 ### January 2017
 
-- Moved .Low (and .Llan) to L, swapping with .Tea on ;. I kept pressing L when I wanted .Low.
-- Moved .Pea to P, swapping with .Vie on [. I kept pressing P when I wanted .Pea.
-- Moved .Ax, .Exam, .Llan, and .Loch to sensible places on the option key.
+- Moved ·Low (and ·Llan) to L, swapping with ·Tea on ;. I kept pressing L when I wanted ·Low.
+- Moved ·Pea to P, swapping with ·Vie on [. I kept pressing P when I wanted ·Pea.
+- Moved ·Ax, ·Exam, ·Llan, and ·Loch to sensible places on the option key.
 - Added Ergodox variant.
 
 ## Shameless plugs
