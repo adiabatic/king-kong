@@ -285,7 +285,7 @@
             <key code="27" output=""/>
             <key code="28" output=""/>
             <key code="29" output=""/>
-            <key code="30" output=""/>
+            <key code="30" output="…"/>
             <key code="31" output=""/>
             <key code="32" output=""/>
             <key code="33" output=""/>
@@ -473,7 +473,7 @@
             <key code="4" output=""/>
             <key code="5" output=""/>
             <key code="6" output=""/>
-            <key code="7" output=""/>
+            <key code="7" output="≈"/>
             <key code="8" output=""/>
             <key code="9" output=""/>
             <key code="11" output=""/>
