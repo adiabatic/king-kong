@@ -1,10 +1,10 @@
-.PHONY: replace ergodox pngs
+.PHONY: normal ergodox pngs
 
 KEYLAYOUT         = "King Kong.keylayout"
 KEYLAYOUT_ERGODOX = "Ergodox/King Kong (Ergodox).keylayout"
 TARGETDIR         = "$(HOME)/Library/Keyboard Layouts"
 
-replace:
+normal:
 	-rm $(TARGETDIR)/$(KEYLAYOUT)
 	cp $(KEYLAYOUT) $(TARGETDIR)
 
