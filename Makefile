@@ -14,11 +14,11 @@ ergodox:
 	-rm $(TARGETDIR)/$(KEYLAYOUT_ERGODOX)
 	cp $(KEYLAYOUT_ERGODOX) $(TARGETDIR)
 
-normal-bundle:
+normal-bundle: freshen-layouts
 	-rm -r $(TARGETDIR)/$(BUNDLE)
 	cp -r $(BUNDLE) $(TARGETDIR)
 
-ergodox-bundle:
+ergodox-bundle: freshen-layouts
 	-rm -r $(TARGETDIR)/$(BUNDLE_ERGODOX)
 	cp -r $(BUNDLE_ERGODOX) $(TARGETDIR)
 
