@@ -10,7 +10,7 @@
 
 :root {
   color-scheme: light dark;
-  --font-stack: "Abbots Morton Spaceport Mono", monospace;
+  --font-stack: "Abbots Morton Spaceport Mono", "Abbots Morton Spaceport Sans Junior", monospace;
   --u: 60px;
   --key-h: 66px;
   --gap: 2px;
